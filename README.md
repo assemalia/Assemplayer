@@ -62,4 +62,4 @@ The feedback form sends mail directly from the device over Gmail SMTP using an A
 
 ## License
 
-No license has been set yet — all rights reserved by default. Open an issue if you'd like to use this code and a license should be added.
+[MIT](LICENSE)
