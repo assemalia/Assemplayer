@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp"
+    android:layout_marginBottom="5dp"
+    >
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+     <com.google.android.material.imageview.ShapeableImageView
+         android:id="@+id/imageMV"
+         android:layout_width="48dp"
+         android:layout_height="48dp"
+         android:layout_marginStart="5dp"
+         android:scaleType="centerCrop"
+         android:src="@drawable/assemplayer"
+         app:shapeAppearanceOverlay="@style/curved" />
+    <TextView
+        android:id="@+id/songnameMV"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/song_name"
+        android:layout_toEndOf="@id/imageMV"
+        android:textColor="@color/white"
+        android:layout_toStartOf="@id/songduaritionMV"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/songalbumMV"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/song_album"
+        android:textSize="12sp"
+        android:layout_toEndOf="@id/imageMV"
+        android:textColor="#9E8D8D"
+        android:layout_toStartOf="@id/songduaritionMV"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/songduaritionMV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/start_tv"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="5dp"
+        />
+
+
+</RelativeLayout>
+  <View
+      android:id="@+id/view"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/white"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="5dp"
+      android:layout_marginStart="5dp"
+      />
+</RelativeLayout>

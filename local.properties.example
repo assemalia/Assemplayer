@@ -1,0 +1,9 @@
+# Copy this file to local.properties (which is gitignored) and fill in your own values.
+
+sdk.dir=/path/to/your/Android/Sdk
+
+# Used by FeedbackActivity to send feedback emails via Gmail SMTP.
+# pass must be a Gmail App Password (myaccount.google.com/apppasswords), not your account password.
+# If left blank, the feedback feature is disabled at runtime instead of crashing.
+feedback.email=
+feedback.app.password=
